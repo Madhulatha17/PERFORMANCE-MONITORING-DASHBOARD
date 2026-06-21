@@ -1,0 +1,28 @@
+@model PerformanceMonitoringDashboard.Models.MetricViewModel
+
+<h1>.NET Performance Dashboard</h1>
+
+<div class="card">
+    <h2>Total Requests</h2>
+    <p>@Model.TotalRequests</p>
+</div>
+
+<div class="card">
+    <h2>Average Response Time</h2>
+    <p>@Model.AverageResponseTime ms</p>
+</div>
+
+<div class="card">
+    <h2>Failed Requests</h2>
+    <p>@Model.FailedRequests</p>
+</div>
+
+<div class="card">
+    <h2>Exceptions</h2>
+    <p>@Model.Exceptions</p>
+</div>
+
+<div class="card">
+    <h2>Dependencies</h2>
+    <p>@Model.Dependencies</p>
+</div>
